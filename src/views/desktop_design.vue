@@ -125,7 +125,7 @@
             <div class="grid-inside">
               <div class="grid-inside-item">
                 <div>
-                  <img :src="item.logo" style="height: 60px; width: 90px" />
+                  <img :src="item.logo" style="height: 60px; width: 100px" />
                   <p style="color: #fff;">{{ item.title }}</p>
                   <hr />
                   <p class="pt-1" style="color: #fff;">
