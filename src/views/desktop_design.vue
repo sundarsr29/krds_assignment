@@ -9,6 +9,7 @@
 }
 .grid-item {
   background-color: #eaeaea;
+  color: rgb(223, 71, 71);
   padding: 10px;
 }
 .grid-inside {
@@ -96,7 +97,7 @@
                 </div>
               </div>
               <div class="grid-inside-item" style="float: right">
-                <img :src="item.image" style="height: 300px; width: 220px" />
+                <img :src="item.image" style="height: 300px; width: 200px" />
               </div>
             </div>
           </div>
@@ -212,8 +213,8 @@ export default {
         0: "background:lightgreen",
         1: "background:orange",
         2: "background:purple",
-        3: "background:red",
-        4: "background:maroon",
+        3: "background: rgb(253, 124, 124)",
+        4: "background: rgb(223, 71, 71)",
         5: "background:lightblue",
       };
       return color[i];
